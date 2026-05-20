@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Kru Naphat</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="แฟ้มสะสมผลงาน (Portfolio) ของนายนภรัฐ อุดเต็น (Kru Naphat) ตำแหน่งครู (ค.ศ. 2) โรงเรียนบ้านส้อเด่นพัฒนา">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS CSS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Animation Elements -->
+    <div class="bg-elements">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Kru<span>Naphat</span></a>
+            <div class="nav-links">
+                <a href="#home">หน้าแรก</a>
+                <a href="#portfolio">ผลงานเว็บไซต์</a>
+                <a href="#reports">รายงานการปฏิบัติหน้าที่</a>
+                <a href="#work-history">ประวัติการทำงาน</a>
+                <a href="#training">การอบรม</a>
+                <a href="#education">ประวัติการศึกษา</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="subtitle">สวัสดีครับ ผมคือ</h2>
+            <h1 class="title">นายนภรัฐ อุดเต็น<br><span>(Kru Naphat)</span></h1>
+            <p class="description">ตำแหน่งครู วิทยฐานะครูชำนาญการ (ค.ศ. 2) โรงเรียนบ้านส้อเด่นพัฒนา มุ่งมั่นพัฒนาผู้เรียนด้วยนวัตกรรมและเทคโนโลยี สร้างสรรค์สื่อการสอนที่ทันสมัย</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">ดูผลงานของผม <i class="fas fa-arrow-right"></i></a>
+                <a href="#reports" class="btn btn-outline">รายงานการปฏิบัติงาน</a>
+            </div>
+        </div>
+        <div class="hero-image" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
+            <div class="glass-card profile-card">
+                <div class="profile-img-container">
+                    <img src="image/me/IMG_8060.JPG" alt="Kru Naphat Profile" class="profile-img">
+                </div>
+                <div class="floating-badge badge-1"><i class="fas fa-infinity"></i> คณิตศาสตร์</div>
+                <div class="floating-badge badge-2"><i class="fas fa-school"></i> บ้านส้อเด่นพัฒนา</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">ผลงาน<span>เว็บไซต์</span></h2>
+            <p class="section-subtitle">รวบรวมเว็บไซต์และสื่อการสอนที่ผมได้พัฒนาขึ้นเพื่อส่งเสริมการเรียนรู้</p>
+        </div>
+        <div class="grid-container">
+            <!-- Project 1 -->
+            <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-img placeholder-img">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="project-info">
+                    <div class="tags"><span class="tag">สื่อการสอน</span></div>
+                    <h3>เว็บไซต์บทเรียนออนไลน์ (ตัวอย่าง)</h3>
+                    <p>ระบบบทเรียนคณิตศาสตร์ออนไลน์สำหรับนักเรียน เพื่อทบทวนบทเรียนได้ทุกที่ทุกเวลา</p>
+                    <a href="#" class="btn btn-sm btn-outline">เข้าชมเว็บไซต์ <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-img" style="padding: 0; display: block; overflow: hidden;">
+                    <img src="image/multiplication_cover.png" alt="Multiplication World" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="project-info">
+                    <div class="tags"><span class="tag">เกมการศึกษา</span></div>
+                    <h3>Multiplication World</h3>
+                    <p>แอปพลิเคชันสำหรับฝึกสูตรคูณแบบทีละขั้นตอน (Step-by-Step) ช่วยให้ผู้เรียนสนุกและเข้าใจได้ง่ายขึ้น</p>
+                    <a href="https://multiplication-tables-kappa.vercel.app/" target="_blank" class="btn btn-sm btn-outline">เข้าชมเว็บไซต์ <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-img" style="padding: 0; display: block; overflow: hidden;">
+                    <img src="image/p1_math_cover.png" alt="P1 Math Game" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="project-info">
+                    <div class="tags"><span class="tag">เกมการศึกษา</span></div>
+                    <h3>เกมคณิตศาสตร์ ป.1</h3>
+                    <p>สนุกกับการบวกและลบเลขเบื้องต้นผ่านเกมอินเตอร์แอคทีฟสีสันสดใส ที่ออกแบบมาเพื่อนักเรียนชั้น ป.1 โดยเฉพาะ</p>
+                    <a href="https://p1-math-game.vercel.app/" target="_blank" class="btn btn-sm btn-outline">เข้าชมเว็บไซต์ <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reports Section -->
+    <section id="reports" class="section alt-bg">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">รายงานการ<span>ปฏิบัติหน้าที่</span></h2>
+            <p class="section-subtitle">ผลการปฏิบัติงานตามมาตรฐานวิชาชีพและการประเมินผล</p>
+        </div>
+        <div class="reports-container">
+            <div class="glass-card report-item" data-aos="fade-right" data-aos-delay="100">
+                <div class="report-icon"><i class="fas fa-file-pdf"></i></div>
+                <div class="report-content">
+                    <h3>รายงานผลการปฏิบัติงาน (SAR) ปีการศึกษา 2568</h3>
+                    <p>สรุปผลการจัดการเรียนการสอนและผลสัมฤทธิ์ทางการเรียนของผู้เรียน</p>
+                </div>
+                <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-download"></i> ดาวน์โหลด</a>
+            </div>
+            <div class="glass-card report-item" data-aos="fade-left" data-aos-delay="200">
+                <div class="report-icon"><i class="fas fa-file-pdf"></i></div>
+                <div class="report-content">
+                    <h3>ข้อตกลงในการพัฒนางาน (PA) ประจำปีงบประมาณ 2568</h3>
+                    <p>การจัดทำข้อตกลงในการพัฒนางานตามมาตรฐานตำแหน่ง</p>
+                </div>
+                <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-download"></i> ดาวน์โหลด</a>
+            </div>
+            <div class="glass-card report-item" data-aos="fade-right" data-aos-delay="300">
+                <div class="report-icon"><i class="fas fa-book-open"></i></div>
+                <div class="report-content">
+                    <h3>รายงานการสร้างนวัตกรรมและสื่อการสอน</h3>
+                    <p>รวบรวมสื่อ นวัตกรรม และแผนการจัดการเรียนรู้ที่เน้นผู้เรียนเป็นสำคัญ</p>
+                </div>
+                <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-download"></i> ดาวน์โหลด</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training & Seminars Section -->
+    <section id="training" class="section">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">การอบรม<span>สัมมนา</span></h2>
+            <p class="section-subtitle">การพัฒนาตนเองอย่างต่อเนื่องเพื่อวิชาชีพครู</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">พฤษภาคม 2568</span>
+                    <h3>การอบรมเชิงปฏิบัติการ การใช้ AI ในการจัดการเรียนการสอน</h3>
+                    <p>กระทรวงศึกษาธิการร่วมกับแพลตฟอร์มการศึกษาออนไลน์ (20 ชั่วโมง)</p>
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">มกราคม 2568</span>
+                    <h3>สัมมนาวิชาการ "คณิตศาสตร์เพื่ออนาคต (Math for the Future)"</h3>
+                    <p>มหาวิทยาลัยชั้นนำ ร่วมแลกเปลี่ยนแนวทางการสอนคณิตศาสตร์ยุคใหม่</p>
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">กันยายน 2567</span>
+                    <h3>การอบรมการสร้างเว็บไซต์และสื่อ Interactive เบื้องต้น</h3>
+                    <p>เพื่อนำมาประยุกต์ใช้ในการสร้างสื่อการเรียนการสอน (15 ชั่วโมง)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work History Section -->
+    <section id="work-history" class="section alt-bg">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">ประวัติการ<span>ทำงาน</span></h2>
+            <p class="section-subtitle">ประสบการณ์การทำงานและการเลื่อนวิทยฐานะ</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">พ.ศ. 2568</span>
+                    <h3>ครู วิทยฐานะครูชำนาญการ (ค.ศ. 2)</h3>
+                    <p>โรงเรียนบ้านส้อเด่นพัฒนา</p>
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">พ.ศ. 2564</span>
+                    <h3>ครู (ค.ศ. 1)</h3>
+                    <p>โรงเรียนบ้านส้อเด่นพัฒนา</p>
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">พ.ศ. 2562</span>
+                    <h3>ครูผู้ช่วย</h3>
+                    <p>บรรจุเข้ารับราชการครู</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">ประวัติการ<span>ศึกษา</span></h2>
+        </div>
+        <div class="education-grid">
+            <div class="glass-card edu-card" data-aos="flip-left" data-aos-delay="100">
+                <div class="edu-icon"><i class="fas fa-university"></i></div>
+                <div class="edu-year">ปริญญาตรี</div>
+                <h3 style="margin-bottom: 15px;">มหาวิทยาลัยพะเยา<br><span style="font-size: 1rem; color: var(--text-secondary);">(หลักสูตรคู่ขนาน)</span></h3>
+                <p><strong>การศึกษาบัณฑิต (กศ.บ.) สาขาคณิตศาสตร์</strong><br>(เกียรตินิยมอันดับ 1)</p>
+                <p style="margin-top: 10px;"><strong>วิทยาศาสตรบัณฑิต (วท.บ.) สาขาคณิตศาสตร์</strong><br>(เกียรตินิยมอันดับ 2)</p>
+            </div>
+            <div class="glass-card edu-card" data-aos="flip-left" data-aos-delay="200">
+                <div class="edu-icon"><i class="fas fa-school"></i></div>
+                <div class="edu-year">ม.4 - ม.6</div>
+                <h3>โรงเรียนสตรีศรีน่าน</h3>
+                <p>ระดับชั้นมัธยมศึกษาปีที่ 4 - 6</p>
+            </div>
+            <div class="glass-card edu-card" data-aos="flip-left" data-aos-delay="300">
+                <div class="edu-icon"><i class="fas fa-child"></i></div>
+                <div class="edu-year">อนุบาล - ม.3</div>
+                <h3>โรงเรียนบ้านสว้า</h3>
+                <p>ระดับชั้นอนุบาล ถึง มัธยมศึกษาปีที่ 3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">Kru<span>Naphat</span></div>
+            <p>ออกแบบและพัฒนาด้วยความมุ่งมั่นเพื่อสร้างสรรค์สื่อการศึกษา</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; 2026 Kru Naphat Portfolio. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
